@@ -37,6 +37,8 @@ _Work in progress_
 - `cp` [archivo/directorio origen] [archivo/directorio destino]: copia un archivo o directorio desde un origen a un destino
 - `cp -r` [directorio origen] [directorio destino]: copia un directorio y todos sus directorios hijos de forma recursiva
 - `open [-a APP] [ FILE | DIRECTORY ]`: abre el (archivo o directorio) con la aplicación por defecto en el sistema operativo, si se manda la bandera `-a` usará la APP para abrirlo
+- `grep [FILE | DIRECTORY] -r -e [WORD]`: filtra dentro del archivo o los archivos dentro de un directorio todas las lineas donde aparezca la palabra indicada
+- `grep [FILE | DIRECTORY] -r -e [WORD] -n`: filtra dentro del archivo o los archivos dentro de un directorio todas las lineas donde aparezca la palabra indicada, y ademas te indica la linea exacta donde esta aparace
 
 ### Operadores para STDIN, STDOUT/STDERR
 `````
